@@ -1,0 +1,1 @@
+const questions=document.querySelectorAll(".question");questions.forEach(function(t){t.querySelector(".question-btn").addEventListener("click",function(){questions.forEach(function(e){e!==t&&e.classList.remove("show-text")}),t.classList.toggle("show-text")})});
